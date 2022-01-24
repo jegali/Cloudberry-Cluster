@@ -42,3 +42,9 @@ So I invested again and bought more PoE Hats. This time again from Waveshare, bu
 <img src="https://m.media-amazon.com/images/I/61zjM9eo4mS._AC_SL1500_.jpg" width="30%">
 
 https://www.amazon.de/PoE-HAT-802-3af-Konform-DC-Ausgang-Offiziellen/dp/B092VVFKWT/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=33QX069WCZ6KI&keywords=raspberry%2Bpoe%2Bhat&qid=1643014707&sprefix=raspberry%2Bpoe%2Bhat%2Caps%2C71&sr=8-1-spons&smid=A3CMRZVKHXMDH4&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUzJXTlJaMEJYNkhRJmVuY3J5cHRlZElkPUEwNDgyOTY0MUNaUkJRR1YxQ0pSTiZlbmNyeXB0ZWRBZElkPUEwNjQyODQ1M0JNVUJaT0oyUFFFOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1
+
+As a result, I restructured the project a little bit. The PoE-capable but unmanaged Netgear switch I bought was replaced with a managed switch. However, the switches with 16 ports become outrageously expensive, I have unfortunately no comparison, but may also be due to the current supply shortages due to the corona pandemic. In any case, I purchased a switch from Zyxel, which meets my needs for now. 8 PoE ports and two ports that can be used as uplink. My security-savvy heart started beating a little irregularly when I read in the manual that the credentials are admin and 1234. 2022...
+
+<img src="https://m.media-amazon.com/images/I/61o-iMe7XvL._AC_SL1000_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B0189ZRSMK/ref=ppx_yo_dt_b_asin_image_o06_s00?ie=UTF8&th=1
