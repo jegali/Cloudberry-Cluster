@@ -32,7 +32,7 @@ sudo apt install phpmyadmin -y
 
 The phpMyAdmin installation program will ask you few questions. We’ll use the dbconfig-common.
 
-Select Apache2 when prompted and press the Enter key
-Configuring phpmyadmin? OK
-Configure database for phpmyadmin with dbconfig-common? Yes
-Type your password and press OK
+*Select Apache2 when prompted and press the Enter key
+*Configuring phpmyadmin? OK
+*Configure database for phpmyadmin with dbconfig-common? Yes
+*Type your password and press OK
