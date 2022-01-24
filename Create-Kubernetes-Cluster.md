@@ -35,7 +35,7 @@ To connect a node to the just deployed server, you have to install k3s on the no
 /var/lib/rancher/k3s/server/node-token
 ```
 
-If you want to deploy more than one node, please consider constructing the command in notepad or notepad++ so you can easily copy and paste it.
+If you want to deploy more than one node, please consider constructing the command in notepad or notepad++ so you can easily copy and paste it.<br/><br/>
 
 
 ## Setting up the nodes
