@@ -6,3 +6,17 @@ sudo apt-get install apache2 libapache2-mod-php php php-mysql mariadb-server mar
 ```
 
 That's basically it: You can now test the Raspberry web server by simply accessing the default Apache web server page on your browser. Just type http://<ip-address> into your browser. You should now see the default Apache server website.
+
+The website is located in the folder /var/www/html/. You now can use any editor of your choice to edit the page or upload your own websote via filezilla or another ftp-tool. Next you can test the PHP function: Create a file named "index.php" in the folder /var/www/html/ on the Raspberry. You can rename the existing index.html to something like "index.old". Then you write some PHP command like 
+  
+```bash
+<?php echo "Hello world! This is the best website of the world"; ?>
+```
+  
+into the index.php file, save it and reload http://<ip-address>. If "Hello world! ..." is output? Perfect: You can use your web server now. To view the PHP information you can also use
+
+```bash
+<?php phpinfo(); ?>
+```
+
+in the file.
