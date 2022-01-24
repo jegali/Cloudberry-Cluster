@@ -232,7 +232,7 @@ And so it did not take long until the panel was completely soldered and assemble
 
 ![cluster-panel](/images/panel-6.jpg)
 
-## Berechnung des Widerstands für die elektrische Schaltung
+## Calculation of the resistor for the circuit
 
 What I also didn't remember was the calculation of the series resistor for the LED circuit. So that I do not forget it this time again, I write down the procedure here.
 
@@ -245,3 +245,14 @@ It is also necessary to take into account that an LED has two different poles. S
 In the following we will deal with how the LED is polarized and how the series resistor is calculated.
 
 ![cluster-panel](/images/circuit-panel-gpio.gif)
+
+For the LED to light up, the GPIO "internal" must be switched to "high" (1). Only then a current flows through the LED.
+To calculate the forward resistance we need two values. One value is the forward voltage U_F of the LED and the other value is the forward current I_F of the LED. Normally you can get these values from the datasheet of the LED.
+If you don't have the data sheet of the LED or these values are unknown, then you have to find them out by experimenting.
+
+We use an LED with 2.0 V and 20 mA (0.02 A) as an example. However, the 20 mA is the maximum value. This LED also lights up at 10 mA. Not quite as bright, but sufficiently visible. Therefore we take a value of 10 mA for the LED forward current.
+
+![cluster-panel](/images/calculate-resistor.png)
+
+The series resistance is calculated using Ohm's law. Here, a voltage is divided by the current, resulting in a resistor value. The voltage that must drop across the resistor is the total voltage (3.3 V) minus the LED forward voltage (2.0 V). The result (1.3 V) is divided by the LED forward current (10 mA) to get the value for the series resistor (130 Ohm).
+Now, unfortunately, this value is not available as a component, so you have to take a slightly smaller or larger value. According to the E-series E12 the next smaller value is 120 Ohm. The next larger value is 150 Ohm. As a rule, one takes the larger value. I took a resistor value of 220 Ohm.
