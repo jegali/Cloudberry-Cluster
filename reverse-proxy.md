@@ -158,10 +158,22 @@ server {
 #}
 ```
 
-To activate the desired redirection, add this block to the file:
+To activate the desired redirection, insert this block 
 
 ```bash
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+
+        ### this is new
+
         location /mallowz/ {
                 proxy_pass http://192.168.178.101/ ;
         }
+
+        ### this is new
+
+	# pass PHP scripts to FastCGI server
 ```
