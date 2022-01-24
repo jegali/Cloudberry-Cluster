@@ -151,10 +151,20 @@ To make sure the GPIO pins will repond correctly when addressed, I installed the
 sudo apt install python3-lgpio
 ```
 
-If you want to install k3s on the nodes you can find the command on the K3s website. Be sure to have curl installed!
+If you want to install k3s on the nodes (and we want) you can find the command on the K3s website. Be sure to have curl installed!
 
 ```bash
 sudo apt install curl
+```
+
+Ubuntu admitted they have a bug in the current release preventing the node to get active. Thankfully there is a package that can be installed. Please patient, it will take some time to install, to backup and to reboot:
+
+```bash
+sudo apt install linux-modules-extra-raspi
+sudo reboot
+```
+
+
 curl -sfL https://get.k3s.io | sh -
 # Check for Ready node,
 takes maybe 30 seconds
