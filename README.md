@@ -179,3 +179,12 @@ Luckily, I did not had to set the IP settings in ubuntu but could use my fritzBo
 As discussed earlier, I wanted to build a Hardware Panel to show the Raspberry's status and to be able to conveniently power on/off the devices. The following picture shows the panel in action.
 
 ![panel-1](/images/panel-1.png)
+
+For the creation of the panel again some hardware was necessary. I needed an aluminum strip, some pushbuttons, LEDs, the necessary series resistors, cables and sockets for the LEDs.
+
+In times of pandemic and closed stores, amazon is really a winner, so of course it's no surprise when I bought the components there. Aluminum strips are there in all colors and shapes, I chose a strip 40x20x1000mm, which still had to be cut to size afterwards
+
+<img src="https://m.media-amazon.com/images/I/51Kr8StbFMS._AC_SL1500_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B003ZUL9S4/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
