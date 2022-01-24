@@ -18,7 +18,9 @@ So I decided to get a case that would give me space and also be able to withstan
 
 https://www.amazon.de/GeeekPi-Raspberry-Cluster-Stapelbares-12-Lagen/dp/B08FHJ5TR2/ref=sr_1_10?keywords=raspberry+cluster+case&qid=1643012141&sprefix=raspberry+cluster%2Caps%2C82&sr=8-10
 
-![image](https://user-images.githubusercontent.com/12532513/150747239-81abb161-dc61-4b73-8c7b-a509e6ecddd8.png)
+I still decided to swap the installed fans for Mirage 12 Pro from AeroCool. More color, more silence  - but I needed a second power line, which the Raspberry could not provide and had to install and bridge a PC switching power supply. And the project grew and grew....
+
+<img src="https://m.media-amazon.com/images/I/81AKTs583dL._AC_SL1500_.jpg" width="30%">
 
 https://www.amazon.de/AeroCool-MIRAGE12PRO-L%C3%BCfter-120mm-ger%C3%A4uschlos/dp/B08DL4J4C7/ref=sr_1_1?keywords=mirage%2B12%2Bpro&qid=1643012711&sprefix=mirage%2B12%2B%2Caps%2C70&sr=8-1&th=1
 
