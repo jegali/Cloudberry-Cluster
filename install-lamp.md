@@ -1,2 +1,2 @@
-# LAMP auf einem Raspberry installieren
+# install LAMP on a Raspberry
 
