@@ -82,4 +82,13 @@ For cloning I recommend the software Win32 Disk Imager, which can be downloaded 
 
 https://sourceforge.net/projects/win32diskimager/
 
-The operation of the software is very intuitive, so I'll skip a tutorial at this point.
+The operation of the software is very intuitive, so I'll skip a tutorial at this point. But before the SD card can be cloned, some software should be installed so that the individual Raspberry can be controlled headless after the cloning process - i.e. without using an external keyboard, monitor and mouse. 
+
+## Installing additional software
+After installing and configuring the basic system, I installed an OpenSSH server so that I can continue the rest of the installation steps from my PC. On the freshly installed system, open a console and install SSH through
+
+```bash
+sudo apt-get install openssh-server
+```
+
+You will be asked for the password of the user you created in the installation process. The installation routine has automatically added this to the Sudoer group. This can be convenient, but it can also be a security risk. Decide for yourself whether you want to keep your user in this group.
