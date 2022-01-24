@@ -140,3 +140,26 @@ sudo update-alternatives –config x-terminal-emulator
 ```
 
 at the console. Choose xfce and quit. Restart the rdp connection and you should be fine.
+
+To be able to monitor the Raspberry, I still installed my health module. Please follow the instructions in this repository:
+
+https://github.com/jegali/HealthPi
+
+To make sure the GPIO pins will repond correctly when addressed, I installed the new LGPIO library:
+
+```bash
+sudo apt install python3-lgpio
+```
+
+## Changes to the firmware to make the hardware panel work
+The really interesting problems always occur when you think you have everything installed. So I had connected my hardware panel to the Raspberry, but the LEDs did not light up. After a long research I then found out that by default under Ubuntu 21 the Serial Console is disabled - via this communicates GPIO pin 14 (TxD), and there is also the LED connected. The solution to the mystery: The line enable_uart=1 must be added to the file /boot/firmware/config.txt
+
+```bash
+[all]
+kernel=vmlinuz
+enable_uart=1
+cmdline=cmdline.txt
+initramfs initrd.img followkernel
+```
+
+Attention: In a Raspian installation you will find the config.txt file directly in the /boot directory. This directory and the file also exist under ubuntu - but you have to adjust the version under /boot/firmware!
