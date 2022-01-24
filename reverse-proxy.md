@@ -117,11 +117,6 @@ server {
 		try_files $uri $uri/ =404;
 	}
 
-        location /myadmin/ {
-                proxy_pass http://192.168.178.40/
-;
-        }
-
 	# pass PHP scripts to FastCGI server
 
 	#
@@ -163,5 +158,10 @@ server {
 #}
 ```
 
+To activate the desired redirection, add this block to the file:
 
-
+```bash
+        location /mallowz/ {
+                proxy_pass http://192.168.178.101/ ;
+        }
+```
