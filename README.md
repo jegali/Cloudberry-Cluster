@@ -98,3 +98,37 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
+Personally, I get along well with ssh as a command line, but sometimes it still makes sense to administrate via a graphical interface. To be able to do this, I have additionally installed xrdp on the Raspberry. To do this, execute these commands in the console:
+
+```bash
+sudo apt install xrdp
+sudo adduser xrdp ssl-cert
+sudo systemctl restart xrdp
+sudo ufw allow 3389
+sudo apt install xfce4
+```
+
+Now you have to edit the file /etc/xrdp/startwm.sh to change the desktop system from gnome to xfce4 which is absolutely sufficient and more performant through RDP sessions.
+
+```bash
+sudo nano /etc/xrdp/startwm.sh
+```
+
+Find these lines and comment them out with a "#"
+
+```bash
+test -x /etc/X11/Xsession && exec /etc/X11/Xsession 
+exec /bin/sh /etc/X11/Xsession 
+```bash
+
+then add
+
+```bash
+startxfce
+```
+
+instead and restart the system by typing the command
+
+```bash
+sudo reboot now
+```
