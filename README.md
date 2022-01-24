@@ -91,4 +91,10 @@ After installing and configuring the basic system, I installed an OpenSSH server
 sudo apt-get install openssh-server
 ```
 
-You will be asked for the password of the user you created in the installation process. The installation routine has automatically added this to the Sudoer group. This can be convenient, but it can also be a security risk. Decide for yourself whether you want to keep your user in this group.
+You will be asked for the password of the user you created in the installation process. The installation routine has automatically added this to the Sudoer group. This can be convenient, but it can also be a security risk. Decide for yourself whether you want to keep your user in this group. A system boot should not be necessary after installation, so you can connect directly to the Raspberry via ssh or Putty or any other software of your choice. After successfully logging in to the ubuntu system, you can now bring it up to date. Use these commands to do this:
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
