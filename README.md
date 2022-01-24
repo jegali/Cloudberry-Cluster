@@ -151,6 +151,16 @@ To make sure the GPIO pins will repond correctly when addressed, I installed the
 sudo apt install python3-lgpio
 ```
 
+If you want to install k3s on the nodes you can find the command on the K3s website. Be sure to have curl installed!
+
+```bash
+sudo apt install curl
+curl -sfL https://get.k3s.io | sh -
+# Check for Ready node,
+takes maybe 30 seconds
+k3s kubectl get node
+```
+
 ## Changes to the firmware to make the hardware panel work
 The really interesting problems always occur when you think you have everything installed. So I had connected my hardware panel to the Raspberry, but the LEDs did not light up. After a long research I then found out that by default under Ubuntu 21 the Serial Console is disabled - via this communicates GPIO pin 14 (TxD), and there is also the LED connected. The solution to the mystery: The line enable_uart=1 must be added to the file /boot/firmware/config.txt
 
