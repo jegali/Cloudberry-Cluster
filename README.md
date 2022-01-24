@@ -54,3 +54,11 @@ As mentioned before, I didn't want to have 8 switching power supplies lying arou
 <img src="https://m.media-amazon.com/images/I/61cXt0r2+1L._AC_SL1300_.jpg" width="30%">
 
 https://www.amazon.de/gp/product/B08R3YRPMB/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+
+## Infrastructure
+After the decision for the hardware was made, it was time to implement the architecture. The image below shows the infrastructure of the project. 
+
+The Raspberry were installed with ubuntu and cloned eight times. I'll go into the installation process in a bit more detail in a moment. After that, the Raspberrys were individually connected to the switch, the hostname was set, the IP was assigned via my Fritzbox and the basic structure of the cluster is ready for use
+
+Translated with www.DeepL.com/Translator (free version)
