@@ -212,3 +212,12 @@ Using CorelDraw - a program I've been using for at least 30 years - I then drew 
 
 ![cluster-panel](/images/panel-2.png)
 
+Fixed with scotch tape on the aluminum bar, the holes for the drilling could then be made with a center punch. Unfortunately, I didn't have much experience with machining aluminum, and using the metal drill available to me didn't produce the desired results.
+
+![cluster-panel](/images/panel-3.jpg)
+
+A visit to youTube Academy showed me that I should use a step drill. So ordered another step drill from Amazon and re-drilled the holes. And lo and behold - this time the holes were round and usable.
+
+<img src="https://m.media-amazon.com/images/I/71I6Hbm5WkL._AC_SL1500_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B001Q3LY1E/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
