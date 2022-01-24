@@ -8,7 +8,7 @@ Neither did I want eight small power supplies in my room in a multiple socket. S
 ### Iteration 1:
 I bought a small kit to stack the Raspberry with. A good idea for my very first experiment with four Raspberry. For building the cluster too small and a little too ... unspectacular. <br/>
 
-![image](https://user-images.githubusercontent.com/12532513/150747305-3f25b8bf-8438-4c9a-92c4-16b6da101679.png)
+![image](https://user-images.githubusercontent.com/12532513/150747305-3f25b8bf-8438-4c9a-92c4-16b6da101679.png | width=100)
 
 https://www.amazon.de/GeeekPi-Raspberry-Transparent-Stapelbarer-K%C3%BChlk%C3%B6rper/dp/B07Z4GRQGH/ref=sr_1_5?keywords=raspberry+cluster+case&qid=1643012204&sprefix=raspberry+cluster%2Caps%2C82&sr=8-5
 
