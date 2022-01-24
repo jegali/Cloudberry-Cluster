@@ -48,3 +48,9 @@ As a result, I restructured the project a little bit. The PoE-capable but unmana
 <img src="https://m.media-amazon.com/images/I/61o-iMe7XvL._AC_SL1000_.jpg" width="30%">
 
 https://www.amazon.de/gp/product/B0189ZRSMK/ref=ppx_yo_dt_b_asin_image_o06_s00?ie=UTF8&th=1
+
+As mentioned before, I didn't want to have 8 switching power supplies lying around in my study, and from my older experiments with Raspberry I only remembered rigid, unbendable network cables, so for this experiment I equipped myself with flat, PoE capable, network cables.
+
+<img src="https://m.media-amazon.com/images/I/61cXt0r2+1L._AC_SL1300_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B08R3YRPMB/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
