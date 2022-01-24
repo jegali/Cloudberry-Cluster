@@ -235,3 +235,13 @@ And so it did not take long until the panel was completely soldered and assemble
 ## Berechnung des Widerstands für die elektrische Schaltung
 
 What I also didn't remember was the calculation of the series resistor for the LED circuit. So that I do not forget it this time again, I write down the procedure here.
+
+The task is to make an LED light up on a Raspberry Pi. This is not very difficult. We need an LED (no matter what color), a resistor whose value still has to be calculated, a Raspberry Pi, preferably a plug-in board and connecting cables from the GPIO pins to the plug-in board.
+
+
+In principle, you should never connect an LED directly between 3.3 V and GND. This can work well, but it does not have to. You have to know that LEDs have a fixed operating voltage, which is below 3.3 V and it also needs a current limiter, because otherwise they draw too much current, which causes them to self-destruct. Both the voltage and the current are controlled by a series resistor, the value of which depends on the excess voltage and the desired current through the light emitting diode.
+It is also necessary to take into account that an LED has two different poles. So you have to pay attention to how around the LED is installed in the circuit.
+
+In the following we will deal with how the LED is polarized and how the series resistor is calculated.
+
+![cluster-panel](/images/circuit-panel-gpio.gif)
