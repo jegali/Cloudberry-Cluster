@@ -163,3 +163,12 @@ initramfs initrd.img followkernel
 ```
 
 Attention: In a Raspian installation you will find the config.txt file directly in the /boot directory. This directory and the file also exist under ubuntu - but you have to adjust the version under /boot/firmware!
+
+
+## Customization on any device
+This brings us to the end of the installation of Ubuntu. Now the SD card can be cloned and inserted into the other Raspberry. I recommend - to avoid confusion - to boot each Raspberry one after the other and to set the name on the command line:
+
+```bash
+sudo hostnamectl set-hostname minion01 
+```
+
