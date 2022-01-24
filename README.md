@@ -8,7 +8,7 @@ Neither did I want eight small power supplies in my room in a multiple socket. S
 ### Iteration 1:
 I bought a small kit to stack the Raspberry with. A good idea for my very first experiment with four Raspberry. For building the cluster too small and a little too ... unspectacular. <br/>
 
-<img src="https://m.media-amazon.com/images/I/71bLVe56y6L._AC_SL1490_.jpg" width="50%">
+<img src="https://m.media-amazon.com/images/I/71bLVe56y6L._AC_SL1490_.jpg" width="25%">
 
 ![image](https://user-images.githubusercontent.com/12532513/150747305-3f25b8bf-8438-4c9a-92c4-16b6da101679.png)
 
