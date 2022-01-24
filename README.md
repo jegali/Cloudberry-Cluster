@@ -25,3 +25,20 @@ I still decided to swap the installed fans for Mirage 12 Pro from AeroCool. More
 https://www.amazon.de/AeroCool-MIRAGE12PRO-L%C3%BCfter-120mm-ger%C3%A4uschlos/dp/B08DL4J4C7/ref=sr_1_1?keywords=mirage%2B12%2Bpro&qid=1643012711&sprefix=mirage%2B12%2B%2Caps%2C70&sr=8-1&th=1
 
 Now the PoE hats came into play. I bought 8 PoE Hats from Waveshare - really great little parts. Unfortunately I had not considered the height, so I could only use 6 of the 12 slots in my cluster enclosure
+
+<img src="https://m.media-amazon.com/images/I/61C2zig-gHL._AC_SL1500_.jpg" width="30%">
+
+https://www.amazon.de/Waveshare-HAT-Raspberry-PoE-Switched-Mode/dp/B07H95Z21P/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IX115247RQS3&keywords=waveshare%2Bpoe&qid=1643014362&sprefix=waveshare%2Bpoe%2Caps%2C55&sr=8-3&th=1
+
+So I gave it a try with the original PoE hats from Raspberry. So finally all Raspberry fit again is the cluster case.
+
+<img src="https://m.media-amazon.com/images/I/71mCQZq9z6L._AC_SL1500_.jpg" width="30%">
+
+https://www.amazon.de/Raspberry-Pi-Foundation-PoE-Netzteil/dp/B07GR9XQJH/ref=sr_1_4?keywords=raspberry+poe+hat&qid=1643014446&sprefix=raspberry+poe%2Caps%2C63&sr=8-4
+
+But what I couldn't overlook at this stage of my project: the GPIO pins are not passed through, so there would be no way to attach a status LED and/or an on/off switch....
+So I invested again and bought more PoE Hats. This time again from Waveshare, but with (mostly) free access to the GPIO strip. Mostly because exactly pin 3 and pin 4 were covered by the hat again, which I saw too late...
+
+<img src="https://m.media-amazon.com/images/I/61zjM9eo4mS._AC_SL1500_.jpg" width="30%">
+
+https://www.amazon.de/PoE-HAT-802-3af-Konform-DC-Ausgang-Offiziellen/dp/B092VVFKWT/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=33QX069WCZ6KI&keywords=raspberry%2Bpoe%2Bhat&qid=1643014707&sprefix=raspberry%2Bpoe%2Bhat%2Caps%2C71&sr=8-1-spons&smid=A3CMRZVKHXMDH4&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUzJXTlJaMEJYNkhRJmVuY3J5cHRlZElkPUEwNDgyOTY0MUNaUkJRR1YxQ0pSTiZlbmNyeXB0ZWRBZElkPUEwNjQyODQ1M0JNVUJaT0oyUFFFOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1
