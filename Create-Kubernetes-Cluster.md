@@ -28,3 +28,9 @@ jens@aurorafox-ub:~$ sudo k3s kubectl get node
 NAME           STATUS   ROLES                  AGE   VERSION
 aurorafox-ub   Ready    control-plane,master   27m   v1.22.5+k3s1
 ```
+
+To connect a node to the just deployed server, you have to install k3s on the nodes as well, and you will have to provide a security token to the nodes. This security token is created during install of the master node and can be found in this file:
+
+```bash
+/var/lib/rancher/k3s/server/node-token
+```
