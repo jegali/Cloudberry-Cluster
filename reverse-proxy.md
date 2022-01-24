@@ -20,3 +20,41 @@ At the end of the installation process, Ubuntu 21 starts Nginx. The web server s
 ```bash
 systemctl status nginx
 ```
+
+Now that your web server is running, let's take a look at some basic administrative commands. To stop your web server, type the following:
+
+```bash
+sudo systemctl stop nginx
+```
+
+To start the web server when it has been stopped, type the following:
+
+```bash
+sudo systemctl start nginx
+```
+
+To stop and restart the service, type the following:
+
+```bash
+sudo systemctl restart nginx
+```
+
+If you are only making configuration changes, Nginx can often reload without dropping connections. To do this, type the following:
+
+```bash
+sudo systemctl reload nginx
+```
+
+By default, Nginx is configured to start automatically when the server boots. If you do not want this behavior, you can disable it by typing the following:
+
+```bash
+sudo systemctl disable nginx
+```
+
+Enter the following to re-enable the service to start at boot time:
+
+```bash
+sudo systemctl enable nginx
+```
+
+You have now learned basic management commands and can begin to configure the site to host more than one domain.
