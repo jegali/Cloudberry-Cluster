@@ -34,3 +34,15 @@ To connect a node to the just deployed server, you have to install k3s on the no
 ```bash
 /var/lib/rancher/k3s/server/node-token
 ```
+
+If you want to deploy more than one node, please consider constructing the command in notepad or notepad++ so you can easily copy and paste it.
+
+
+## Setting up the nodes
+
+I deployed k3s before on a Raspberry with Ubuntu 20 without any issues. Ubuntu 21 throws an error "bind failed" or "address alerady in use". This is not a k3s issue, but a bug in Ubuntu 21. This bug can be fixed by installing these commands
+
+```bash
+sudo apt install linux-modules-extra-raspi
+sudo reboot
+```
