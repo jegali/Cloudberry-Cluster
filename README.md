@@ -188,3 +188,14 @@ In times of pandemic and closed stores, amazon is really a winner, so of course 
 
 https://www.amazon.de/gp/product/B003ZUL9S4/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
 
+I bought light emitting diodes directly together with resistors, after I had calculated the required series resistance. This complete package left nothing to be desired
+
+<img src="https://m.media-amazon.com/images/I/71PhkLcEYJL._AC_SL1001_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B07YWX42RJ/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+To be able to fit the LEDs well, I treated myself to some more sockets
+
+<img src="https://m.media-amazon.com/images/I/61Q4f5NAAgL._AC_SL1001_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B075H9GJHF/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
