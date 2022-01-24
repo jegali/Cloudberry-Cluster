@@ -30,7 +30,7 @@ Now the PoE hats came into play. I bought 8 PoE Hats from Waveshare - really gre
 
 https://www.amazon.de/Waveshare-HAT-Raspberry-PoE-Switched-Mode/dp/B07H95Z21P/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IX115247RQS3&keywords=waveshare%2Bpoe&qid=1643014362&sprefix=waveshare%2Bpoe%2Caps%2C55&sr=8-3&th=1
 
-So I gave it a try with the original PoE hats from Raspberry. So finally all Raspberry fit again is the cluster case.
+So I gave it a try with the original PoE hats from Raspberry. So finally all Raspberry fit again in the cluster case.
 
 <img src="https://m.media-amazon.com/images/I/71mCQZq9z6L._AC_SL1500_.jpg" width="30%">
 
