@@ -73,3 +73,9 @@ By and large, I followed this website for the basic installation:
 https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview
 
 The website does a good job, including introducing Raspberry's imaging tool, which should definitely be used. The trick with the SSH file unfortunately did not work for me, but it may also be that this approach does not work under ubuntu in general, since the OpenSSH server still needs to be post-installed.
+
+The guided installation should be carried out in any case to the end - because here you can directly assign a user account and password, make country-specific settings, give the computer a name and update the system to the latest version. Of course, you can also do this 8 times in a row or quasi-parallel - but since you need a screen and a keyboard, you would have to reconnect all the time. This way, an installation can be performed and then the SD card can be cloned.
+
+For cloning I recommend the software Win32 Disk Imager, which can be downloaded and installed at the link below. In principle, this works exactly like the Pi Imager, but can also create images.
+
+https://sourceforge.net/projects/win32diskimager/
