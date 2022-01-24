@@ -12,4 +12,9 @@ I bought a small kit to stack the Raspberry with. A good idea for my very first 
 
 https://www.amazon.de/GeeekPi-Raspberry-Transparent-Stapelbarer-K%C3%BChlk%C3%B6rper/dp/B07Z4GRQGH/ref=sr_1_5?keywords=raspberry+cluster+case&qid=1643012204&sprefix=raspberry+cluster%2Caps%2C82&sr=8-5
 
+So I decided to get a case that would give me space and also be able to withstand expansion requests for a while.
+
+![image](https://user-images.githubusercontent.com/12532513/150746610-eba3d032-0459-41a5-91a1-4c19037da506.png)
+
+
 https://www.amazon.de/GeeekPi-Raspberry-Cluster-Stapelbares-12-Lagen/dp/B08FHJ5TR2/ref=sr_1_10?keywords=raspberry+cluster+case&qid=1643012141&sprefix=raspberry+cluster%2Caps%2C82&sr=8-10
