@@ -20,3 +20,19 @@ into the index.php file, save it and reload http://192.168.178.101. If "Hello wo
 ```
 
 in the file.
+
+# Install phpMyAdmin on the Raspberry
+phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL using a web interface.
+
+To install phpMyAdmin on a Raspberry Pi, type the following command into the terminal:
+
+```bash
+sudo apt install phpmyadmin -y
+```
+
+The phpMyAdmin installation program will ask you few questions. We’ll use the dbconfig-common.
+
+Select Apache2 when prompted and press the Enter key
+Configuring phpmyadmin? OK
+Configure database for phpmyadmin with dbconfig-common? Yes
+Type your password and press OK
