@@ -47,7 +47,7 @@ sudo apt install linux-modules-extra-raspi
 sudo reboot
 ```
 
-After that, k3s can be installed
+After that, k3s can be installed with
 
 ```bash
 curl -sfL https://get.k3s.io | K3S_URL=https://192.168.178.29:6443 K3S_TOKEN=K10f578728f969fb6f29557ca082c5abcd95edc3ee5a64ddeff94b3fef7a1c76d9f::server:be45bbb89faedfcc91cfcc78d4d1ab31 sh -
@@ -59,4 +59,21 @@ where 192.168.178.29 is my server's address. The token is the content of the fil
 /var/lib/rancher/k3s/server/node-token
 ```
 
-Please do not take the token offered here - it is a fake token.
+Please do not take the token offered here - it is a fake token. After installing the extra modules and installing the nodes, you can issue 
+
+```bash
+jens@aurorafox-ub:~$ sudo k3s kubectl get node
+NAME           STATUS   ROLES                  AGE   VERSION
+minion01       Ready    <none>                 64m   v1.22.5+k3s1
+minion06       Ready    <none>                 63m   v1.22.5+k3s1
+minion02       Ready    <none>                 65m   v1.22.5+k3s1
+minion03       Ready    <none>                 63m   v1.22.5+k3s1
+aurorafox-ub   Ready    control-plane,master   99m   v1.22.5+k3s1
+minion08       Ready    <none>                 63m   v1.22.5+k3s1
+minion07       Ready    <none>                 63m   v1.22.5+k3s1
+minion04       Ready    <none>                 63m   v1.22.5+k3s1
+minion05       Ready    <none>                 63m   v1.22.5+k3s1
+jens@aurorafox-ub:~$ 
+```
+
+on the server. The nodes should go ready after short time.
