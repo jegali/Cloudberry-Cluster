@@ -221,3 +221,17 @@ A visit to youTube Academy showed me that I should use a step drill. So ordered 
 <img src="https://m.media-amazon.com/images/I/71I6Hbm5WkL._AC_SL1500_.jpg" width="30%">
 
 https://www.amazon.de/gp/product/B001Q3LY1E/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+![cluster-panel](/images/panel-4.jpg)
+
+The last time I soldered was about 30 years ago - accordingly, the first solder joint was also directly cold and broke. Here, too, a visit to the youTube Academy was worthwhile to refresh my rusty knowledge. After a few tentative attempts, soldering worked quite well again.
+
+![cluster-panel](/images/panel-5.jpg)
+
+And so it did not take long until the panel was completely soldered and assembled in front of me. 
+
+![cluster-panel](/images/panel-6.jpg)
+
+## Berechnung des Widerstands für die elektrische Schaltung
+
+What I also didn't remember was the calculation of the series resistor for the LED circuit. So that I do not forget it this time again, I write down the procedure here.
