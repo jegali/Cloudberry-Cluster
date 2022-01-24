@@ -127,8 +127,16 @@ then add
 startxfce
 ```
 
-instead and restart the system by typing the command
+instead. Save the file, exit nano and restart the system by typing the command
 
 ```bash
 sudo reboot now
 ```
+
+If you are using windows, start you Remote Desktop Protocol and connect to your machine's IP. The user is the user you created during the installation process. The terminal may not start when you select it from the menu. This is usually because gnome-terminal is still entered as the default terminal. But this is not a big problem. Connect again via ssh and enter 
+
+```bash
+sudo update-alternatives –config x-terminal-emulator
+```
+
+at the console. Choose xfce and quit. Restart the rdp connection and you should be fine.
