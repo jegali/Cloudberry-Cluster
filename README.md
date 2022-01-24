@@ -173,3 +173,9 @@ sudo hostnamectl set-hostname minion01
 ```
 
 Luckily, I did not had to set the IP settings in ubuntu but could use my fritzBox Interface, so this concludes the preparation for the cluster installation.
+
+
+# Building of the Hardware Panel
+As discussed earlier, I wanted to build a Hardware Panel to show the Raspberry's status and to be able to conveniently power on/off the devices. The following picture shows the panel in action.
+
+![panel-1](/images/panel-1.png)
