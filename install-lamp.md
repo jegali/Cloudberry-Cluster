@@ -59,3 +59,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'mallowz'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+The general commands are - I used "mallowz" as the new user with "mallowz" as password.
+
+```bash
+ CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+ GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
+ FLUSH PRIVILEGES;
+```
