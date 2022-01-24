@@ -157,7 +157,7 @@ If you want to install k3s on the nodes (and we want) you can find the command o
 sudo apt install curl
 ```
 
-Ubuntu admitted they have a bug in the current release preventing the node to get active. Thankfully there is a package that can be installed. Please patient, it will take some time to install, to backup and to reboot:
+Ubuntu admitted they have a bug in the current release preventing the node to get active. Thankfully there is a package that can be installed. Please be patient, it will take some time to install, to backup and to reboot:
 
 ```bash
 sudo apt install linux-modules-extra-raspi
