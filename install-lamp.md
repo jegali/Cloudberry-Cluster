@@ -36,3 +36,26 @@ The phpMyAdmin installation program will ask you few questions. We’ll use the 
 * Configuring phpmyadmin? OK
 * Configure database for phpmyadmin with dbconfig-common? Yes
 * Type your password and press OK
+
+Enable the PHP MySQLi extension and restart Apache2 for changes to take effect:
+
+```bash
+jens@minion01:/var/www/html $ sudo phpenmod mysqli
+jens@minion01:/var/www/html $ sudo service apache2 restart
+```
+
+I want to call phpMyAdmin by the URL http://192.168.178.101/phpmyadmin. So I will have to move the phpmyadmin folder to /var/www/html. To do this, we have to run this command:
+
+```bash
+jens@minion01:/var/www/html $ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+```
+
+Maybe you cannot log in to phpMyAdmin because a user is missing. You are no longer allowed to log in with user root, so it may be neccessary to create a new user. To do this, log in to mysql as root and create a new user with these commands:
+
+```bash
+sudo mysql -u root
+CREATE USER 'mallowz'@'localhost' IDENTIFIED BY 'mallowz';
+GRANT ALL PRIVILEGES ON *.* TO 'mallowz'@'localhost';
+FLUSH PRIVILEGES;
+```
+
