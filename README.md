@@ -172,3 +172,4 @@ This brings us to the end of the installation of Ubuntu. Now the SD card can be 
 sudo hostnamectl set-hostname minion01 
 ```
 
+Luckily, I did not had to set the IP settings in ubuntu but could use my fritzBox Interface, so this concludes the preparation for the cluster installation.
