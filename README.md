@@ -199,3 +199,16 @@ To be able to fit the LEDs well, I treated myself to some more sockets
 <img src="https://m.media-amazon.com/images/I/61Q4f5NAAgL._AC_SL1001_.jpg" width="30%">
 
 https://www.amazon.de/gp/product/B075H9GJHF/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+I found the necessary buttons to switch on and off here
+
+<img src="https://m.media-amazon.com/images/I/61sPc1mLqTL._AC_SL1000_.jpg" width="30%">
+
+https://www.amazon.de/gp/product/B081JJBN4G/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+Of course, for tinkering you still need a soldering iron, ideally with a third hand and a little solder. But I see this rather as basic equipment and do not want to post more links here.
+
+Using CorelDraw - a program I've been using for at least 30 years - I then drew and printed a layout of the switches and LEDs
+
+![cluster-panel](/images/panel-2.png)
+
