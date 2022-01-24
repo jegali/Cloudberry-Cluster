@@ -78,4 +78,8 @@ The guided installation should be carried out in any case to the end - because h
 
 For cloning I recommend the software Win32 Disk Imager, which can be downloaded and installed at the link below. In principle, this works exactly like the Pi Imager, but can also create images.
 
+![win32diskimager](/images/win32diskimager.png)
+
 https://sourceforge.net/projects/win32diskimager/
+
+The operation of the software is very intuitive, so I'll skip a tutorial at this point.
