@@ -7,4 +7,7 @@ The Raspberry were installed with ubuntu and cloned eight times. I'll go into th
 
 ## Physical architecture
 
-The HP Slice will become the master node. Later, an NGinx load balancer and redirector will be installed here, as well as the eKubernetes master plane. This node will get the IP address 192.168.178.29.
+### Master Node: HP Slice
+The HP Slice will become the master node. This box is equipped with 32 GB of RAM and an installation of Ubuntu 21 and later, an NGinx load balancer and redirector will be installed here, as well as the Kubernetes master plane. This node will get the IP address 192.168.178.29.
+
+### Slave Nodes: Raspberry Pi 4
