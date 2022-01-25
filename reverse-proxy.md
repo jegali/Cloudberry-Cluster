@@ -179,7 +179,7 @@ To activate the desired redirection, insert this block
 ```
 
 ## Installing the webshop
-One thing I can never remember is how to copy files from Windows to a Linux box. The webshop was programmed by me on Windows in Docker containers and now it has to be copied to the newly created Linux box. the best way to do this is to use the pscp program. With the command
+One thing I can never remember is how to copy files from Windows to a Linux box. The webshop was programmed by me on Windows in Docker containers and now it has to be copied to the newly created Linux box. The best way to do this is to use the pscp program. With the command
 
 ```bash
 pscp -r -pw <password> *.* <user>@192.168.178.101:/var/www/html
@@ -187,4 +187,4 @@ pscp -r -pw <password> *.* <user>@192.168.178.101:/var/www/html
 
 the current directory on the Windows computer including all subdirectories is recursively copied to the Linux box in the directory /var/www/html.
 
-To change the start page on the Apache web server on the Linux box from index.html to index.php it is sufficient to rename or delete index.html.
+To change the start page on the Apache web server on the Linux box from index.html to index.php it is sufficient to rename or delete index.html. That's all! We're done!
