@@ -22,4 +22,4 @@ The Raspberry will also be equipped with Ubuntu 21. I plan to install only one n
 * Minion 07: 192.168.178.107
 * Minion 08: 192.168.178.108
 
-The next steps are to install the Raspberry systems and install and configure the [kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md).
+The next steps are to [install the Raspberry systems](https://github.com/jegali/Cloudberry-Cluster/blob/main/ubuntu-install.md) and install and configure the [kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md).
