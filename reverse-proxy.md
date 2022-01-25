@@ -178,6 +178,8 @@ To activate the desired redirection, insert this block
 	# pass PHP scripts to FastCGI server
 ```
 
+Any request that now reaches the webserver via the URL aurorafox.de/mallowz/ will be forwarded to the webserver at IP 192.168.178.101. The URL aurorafox.de/mallowz/ remains in the address bar of the browser, so the user does not see that he was redirected to another server. 
+
 ## Installing the webshop
 One thing I can never remember is how to copy files from Windows to a Linux box. The webshop was programmed by me on Windows in Docker containers and now it has to be copied to the newly created Linux box. The best way to do this is to use the pscp program. With the command
 
