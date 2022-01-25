@@ -45,6 +45,15 @@ I wanted to build a Hardware Panel to show the Raspberry's status and to be able
 <br/><br/>
 
 
+
+## NGinx as a reverse proxy
+
+If individual servers such as a GIT, blog, WIKI and a CMS-managed web server based on Docker are running on the same or multiple host servers in a closed network, these services can be made externally accessible via a reverse proxy and then all accessed from the outside under port 80 and 443. A separate URL for each individual service then forwards the request to the correct server. I wanted to serve different services on the Raspberry as well, so I decided to deploy a reverse proxy on the HP slice.
+
+[Part 6: Reverse Proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
+<br/><br/>
+
+
 This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
 This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
 
