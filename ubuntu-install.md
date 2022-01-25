@@ -1,4 +1,7 @@
 # Raspberry Installation
+As already told in the [architectural section](https://github.com/jegali/Cloudberry-Cluster/blob/main/architecture.md), the Raspberry will also be equipped with Ubuntu 21. I decided to install only one node completely. I know that an external monitor (and a mouse and keyboard) will be needed at the beginning of the configuration, so I only want to do this installation process once to avoid having to constantly replug everything. Then openSSH and RDP will be installed to do the rest remotely. <br/>
+
+
 I equipped each Raspberry with a 128GB SD card to be ready for the future. However, the disadvantage of a card of this size is also obvious - if the card is to be cloned, it just takes a little longer. In my case, it took about 1 hour to read the card, and then about 40 minutes to flash each additional instance. With eight cards, it can take a day.
 By and large, I followed this website for the basic installation:
 
