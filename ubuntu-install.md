@@ -14,7 +14,7 @@ The website does a good job, including introducing Raspberry's imaging tool, whi
 
 The guided installation should be carried out in any case to the end - because here you can directly assign a user account and password, make country-specific settings, give the computer a name and update the system to the latest version. Of course, you can also do this 8 times in a row or quasi-parallel - but since you need a screen and a keyboard, you would have to reconnect all the time. This way, an installation can be performed and then the SD card can be cloned.
 
-## Using Wins32DiskImager for cloning
+## Using Win32DiskImager for cloning
 For cloning I recommend the software Win32 Disk Imager, which can be downloaded and installed at the link below. In principle, this works exactly like the Pi Imager, but can also create images.
 
 ![win32diskimager](/images/win32diskimager.png)
