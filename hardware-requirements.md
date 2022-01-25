@@ -70,3 +70,5 @@ As mentioned before, I didn't want to have 8 switching power supplies lying arou
 <img src="https://m.media-amazon.com/images/I/61cXt0r2+1L._AC_SL1300_.jpg" width="30%">
 
 https://www.amazon.de/gp/product/B08R3YRPMB/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+
+And that's about it for the hardware. In the next section I'll write something about the physical hardware architecture of the project and of course about the virtual architecture as well.
