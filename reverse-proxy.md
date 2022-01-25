@@ -188,5 +188,3 @@ pscp -r -pw <password> *.* <user>@192.168.178.101:/var/www/html
 the current directory on the Windows computer including all subdirectories is recursively copied to the Linux box in the directory /var/www/html.
 
 To change the start page on the Apache web server on the Linux box from index.html to index.php it is sufficient to rename or delete index.html.
-
-Translated with www.DeepL.com/Translator (free version)
