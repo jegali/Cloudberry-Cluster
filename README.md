@@ -14,7 +14,7 @@ In this section, you'll learn about the hardware requirements that came up for t
 
 This section shows the hardware architecture. Closely related to the actual physical structure is the cluster architecture, which I will also present in this section.
 
-[Part 2: Architecture and Infrastructure]https://github.com/jegali/Cloudberry-Cluster/edit/main/architecture.md)<br/>
+[Part 2: Architecture and Infrastructure](https://github.com/jegali/Cloudberry-Cluster/edit/main/architecture.md)<br/>
 <br/><br/>
 
 
