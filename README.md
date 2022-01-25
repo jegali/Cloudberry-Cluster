@@ -18,8 +18,14 @@ This section shows the hardware architecture. Closely related to the actual phys
 <br/><br/>
 
 
+## Kubernetes install and configuration
 
-This document describes how to set up the [kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md)<br/>
+I divided the installation of the raspberry and kubernetes into two separate sections. This section deals with the kubernetes installation.
+
+[Part 4: kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md)<br/>
+<br/><br/>
+
+
 This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
 This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
 
