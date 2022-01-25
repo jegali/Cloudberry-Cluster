@@ -10,23 +10,18 @@ In this section, you'll learn about the hardware requirements that came up for t
 <br/><br/>
 
 
+## Architecture and Infrastructure
+
+This section shows the hardware architecture. Closely related to the actual physical structure is the cluster architecture, which I will also present in this section.
+
+[Part 2: Architecture and Infrastructure]https://github.com/jegali/Cloudberry-Cluster/edit/main/architecture.md)<br/>
+<br/><br/>
+
+
 
 This document describes how to set up the [kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md)<br/>
 This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
 This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
-
-## Hardware Requirements
-I wanted to make the work for this project as pleasant as possible. In particular, I wanted to have a way to shut down the cluster for vacation periods and be able to restart it just as conveniently. The whole thing should be possible without having to log in to each Raspberry every time and manually shutting down the Raspberry. Because as we all know - simply cutting the power and stopping the Raspberry in this way can corrupt the SD card and thus severely affect the further functioning of the Raspberry.<br/><br/>
-Neither did I want eight small power supplies in my room in a multiple socket. So I decided to equip the Raspberry with a Power over Ethernet (PoE) Hat to be able to guarantee the power supply via a switch. As far as both the PoE hats and the switch were concerned, it took several iterations before I was satisfied with the result. 
-
-
-
-## Infrastructure
-After the decision for the hardware was made, it was time to implement the architecture. The image below shows the infrastructure of the project. 
-
-The Raspberry were installed with ubuntu and cloned eight times. I'll go into the installation process in a bit more detail in a moment. After that, the Raspberrys were individually connected to the switch, the hostname was set, the IP was assigned via my Fritzbox and the basic structure of the cluster is ready for use.
-
-![Infrastructure](/images/cloudberry-infrastructure.png)
 
 
 ## Raspberry Installation
