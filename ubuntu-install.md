@@ -2,6 +2,7 @@
 As already told in the [architectural section](https://github.com/jegali/Cloudberry-Cluster/blob/main/architecture.md), the Raspberry will also be equipped with Ubuntu 21. I decided to install only one node completely. I know that an external monitor (and a mouse and keyboard) will be needed at the beginning of the configuration, so I only want to do this installation process once to avoid having to constantly replug everything. Then openSSH and RDP will be installed to do the rest remotely. <br/>
 
 
+## Installing Ubuntu
 I equipped each Raspberry with a 128GB SD card to be ready for the future. However, the disadvantage of a card of this size is also obvious - if the card is to be cloned, it just takes a little longer. In my case, it took about 1 hour to read the card, and then about 40 minutes to flash each additional instance. With eight cards, it can take a day.
 By and large, I followed this website for the basic installation:
 
@@ -13,6 +14,7 @@ The website does a good job, including introducing Raspberry's imaging tool, whi
 
 The guided installation should be carried out in any case to the end - because here you can directly assign a user account and password, make country-specific settings, give the computer a name and update the system to the latest version. Of course, you can also do this 8 times in a row or quasi-parallel - but since you need a screen and a keyboard, you would have to reconnect all the time. This way, an installation can be performed and then the SD card can be cloned.
 
+## Using Wins32DiskImager for cloning
 For cloning I recommend the software Win32 Disk Imager, which can be downloaded and installed at the link below. In principle, this works exactly like the Pi Imager, but can also create images.
 
 ![win32diskimager](/images/win32diskimager.png)
