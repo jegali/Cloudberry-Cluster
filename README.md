@@ -36,10 +36,6 @@ I divided the installation of the raspberry and kubernetes into two separate sec
 <br/><br/>
 
 
-This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
-This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
-
-
 
 ## Hardware Panel
 
@@ -51,7 +47,6 @@ I wanted to build a Hardware Panel to show the Raspberry's status and to be able
 
 This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
 This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
-
 
 
 
