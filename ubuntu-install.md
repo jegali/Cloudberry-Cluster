@@ -86,11 +86,14 @@ sudo update-alternatives –config x-terminal-emulator
 
 at the console. Choose xfce and quit. Restart the rdp connection and you should be fine.
 
-### Updating the Ubuntu System
+### Installing the health monitor
 
 To be able to monitor the Raspberry, I still installed my health module. Please follow the instructions in this repository:
 
 https://github.com/jegali/HealthPi
+
+
+### Enabling GPIO programming
 
 To make sure the GPIO pins will repond correctly when addressed, I installed the new LGPIO library:
 
@@ -98,11 +101,15 @@ To make sure the GPIO pins will repond correctly when addressed, I installed the
 sudo apt install python3-lgpio
 ```
 
+### Installing curl
+
 If you want to install k3s on the nodes (and we want) you can find the command on the K3s website. Be sure to have curl installed!
 
 ```bash
 sudo apt install curl
 ```
+
+### Bugfixing libraries for kubernetes deployment
 
 Ubuntu admitted they have a bug in the current release preventing the node to get active. Thankfully there is a package that can be installed. Please be patient, it will take some time to install, to backup and to reboot:
 
