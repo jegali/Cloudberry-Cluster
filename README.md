@@ -23,7 +23,7 @@ This section shows the hardware architecture. Closely related to the actual phys
 
 I divided the installation of the raspberry and kubernetes into two separate sections. This section deals with the Raspberry installation.
 
-[Part 3: ubuntu install](https://github.com/jegali/Cloudberry-Cluster/blob/main/ubuntu-install.md)<br/>
+[Part 3: Ubuntu install](https://github.com/jegali/Cloudberry-Cluster/blob/main/ubuntu-install.md)<br/>
 <br/><br/>
 
 
@@ -32,7 +32,7 @@ I divided the installation of the raspberry and kubernetes into two separate sec
 
 I divided the installation of the raspberry and kubernetes into two separate sections. This section deals with the kubernetes installation.
 
-[Part 4: kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md)<br/>
+[Part 4: Kubernetes cluster](https://github.com/jegali/Cloudberry-Cluster/blob/main/Create-Kubernetes-Cluster.md)<br/>
 <br/><br/>
 
 
