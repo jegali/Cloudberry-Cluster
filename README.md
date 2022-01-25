@@ -54,15 +54,12 @@ If individual servers such as a GIT, blog, WIKI and a CMS-managed web server bas
 <br/><br/>
 
 
-This document describes how to set up a [lamp installation](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
-This document describes how to set up a [reverse proxy](https://github.com/jegali/Cloudberry-Cluster/blob/main/reverse-proxy.md)<br/>
+## Using LAMP for the hackable Webshop
+
+With a LAMP server (Linux Apache MySQL PHP), any Linux computer can be turned into a functioning web server. Especially the current Raspberry Pi 4 is perfectly suited for use as a compact web server thanks to its fast network interfaces: In this document we set up the webshop "mallowz" as a hackable LAMP installation.
+
+[Part 7: LAMP](https://github.com/jegali/Cloudberry-Cluster/blob/main/install-lamp.md)<br/>
 
 
-
-curl -sfL https://get.k3s.io | sh -
-# Check for Ready node,
-takes maybe 30 seconds
-k3s kubectl get node
-```
 
 
