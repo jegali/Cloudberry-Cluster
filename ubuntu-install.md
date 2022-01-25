@@ -24,6 +24,9 @@ https://sourceforge.net/projects/win32diskimager/
 The operation of the software is very intuitive, so I'll skip a tutorial at this point. But before the SD card can be cloned, some software should be installed so that the individual Raspberry can be controlled headless after the cloning process - i.e. without using an external keyboard, monitor and mouse. 
 
 ## Installing additional software
+The installation of additional software also takes time - therefore this step should also only be performed once and then either automated or cloned.
+
+### OpenSSH
 After installing and configuring the basic system, I installed an OpenSSH server so that I can continue the rest of the installation steps from my PC. On the freshly installed system, open a console and install SSH through
 
 ```bash
@@ -32,11 +35,13 @@ sudo apt-get install openssh-server
 
 You will be asked for the password of the user you created in the installation process. The installation routine has automatically added this to the Sudoer group. This can be convenient, but it can also be a security risk. Decide for yourself whether you want to keep your user in this group. A system boot should not be necessary after installation, so you can connect directly to the Raspberry via ssh or Putty or any other software of your choice. After successfully logging in to the ubuntu system, you can now bring it up to date. Use these commands to do this:
 
+### Updating the Ubuntu System
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
+### Installing xRDP for Remote Access
 Personally, I get along well with ssh as a command line, but sometimes it still makes sense to administrate via a graphical interface. To be able to do this, I have additionally installed xrdp on the Raspberry. To do this, execute these commands in the console:
 
 ```bash
@@ -74,11 +79,14 @@ sudo reboot now
 
 If you are using windows, start you Remote Desktop Protocol and connect to your machine's IP. The user is the user you created during the installation process. The terminal may not start when you select it from the menu. This is usually because gnome-terminal is still entered as the default terminal. But this is not a big problem. Connect again via ssh and enter 
 
+### Configuring xfce (needed for terminal)
 ```bash
 sudo update-alternatives –config x-terminal-emulator
 ```
 
 at the console. Choose xfce and quit. Restart the rdp connection and you should be fine.
+
+### Updating the Ubuntu System
 
 To be able to monitor the Raspberry, I still installed my health module. Please follow the instructions in this repository:
 
