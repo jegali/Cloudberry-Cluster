@@ -66,3 +66,5 @@ The general commands are - I used "mallowz" as the new user with "mallowz" as pa
  GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
  FLUSH PRIVILEGES;
 ```
+
+After that, please load again the phpMyAdmin page by typing http://192.168.178.101/phpmyadmin in your browser and try logging in with login:mallowz and password:mallowz again.
