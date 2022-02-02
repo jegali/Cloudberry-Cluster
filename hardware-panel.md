@@ -84,3 +84,7 @@ How to connect an LED correctly? Typically, the two connecting wires of an LED a
 Easy to remember: The plus sign has one more dash than the minus sign, making the wire slightly longer. Also, most LEDs are flattened on the minus side, like a minus, or the "K" of the cathode.
 
 With the circuit symbol, you can remember it like this. There, the circuit symbol has the shape of the letter "K" because of the crossbar. The triangle is similar to the letter "A". In the case of the crossbar, the terminal is the cathode and on the other side is the anode. The anode points away from the positive pole to the negative pole, indicating the direction of current. From plus to minus. And thus the anode is connected to the positive pole and the cathode to the negative pole.
+
+## Where to put the wires
+
+The light emitting diode, which should indicate the operation of the Raspberry, should of course also go out when the raspberry goes into sleep mode. Therefore I decided to connect the diode to pins 8 (TxD) and 14 (GND). Pin 6 is also a GND pin, but unfortunately occupied by the construction of the PoE hat - so I had to switch to either pin 9 or pin 14.
