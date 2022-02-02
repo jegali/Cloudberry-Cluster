@@ -88,3 +88,17 @@ With the circuit symbol, you can remember it like this. There, the circuit symbo
 ## Where to put the wires
 
 The light emitting diode, which should indicate the operation of the Raspberry, should of course also go out when the raspberry goes into sleep mode. Therefore I decided to connect the diode to pins 8 (TxD) and 14 (GND). Pin 6 is also a GND pin, but unfortunately occupied by the construction of the PoE hat - so I had to switch to either pin 9 or pin 14.
+
+Even though I have already described this part of the installation on the software side under [Part 3: Ubuntu install](https://github.com/jegali/Cloudberry-Cluster/blob/main/ubuntu-install.md), I think it makes sense to point out again at this point that the connection to TxD means that the Serial Console must be activated - otherwise the LED does not light up at all. 
+
+The really interesting problems always occur when you think you have everything installed. So I had connected my hardware panel to the Raspberry, but the LEDs did not light up. After a long research I then found out that by default under Ubuntu 21 the Serial Console is disabled - via this communicates GPIO pin 14 (TxD), and there is also the LED connected. The solution to the mystery: The line enable_uart=1 must be added to the file /boot/firmware/config.txt
+
+```bash
+[all]
+kernel=vmlinuz
+enable_uart=1
+cmdline=cmdline.txt
+initramfs initrd.img followkernel
+```
+
+Attention: In a Raspian installation you will find the config.txt file directly in the /boot directory. This directory and the file also exist under ubuntu - but you have to adjust the version under /boot/firmware!
